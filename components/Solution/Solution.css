@@ -1,0 +1,19 @@
+#solution {
+  color: #375da9;
+  -webkit-text-stroke: 3px #ffcc00;
+  font-size: 10vh;
+  height: 50px;
+  width: 100%;
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}

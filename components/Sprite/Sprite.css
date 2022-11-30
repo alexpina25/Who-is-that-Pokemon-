@@ -1,0 +1,18 @@
+.sprite {
+  height: 400px;
+  width: 400px;
+  transition: filter 1s ease-out;
+  filter: initial;
+}
+
+.shadow {
+  filter: brightness(0);
+  transition: initial;
+}
+
+@media  (max-width: 700px) {
+  .sprite {
+    height: 200px;
+    width: 200px;
+  }
+}
